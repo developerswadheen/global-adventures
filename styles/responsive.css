@@ -1,0 +1,13 @@
+@media screen and (max-width:600px) {
+    .banner-container{
+        height: auto;
+        padding: 50px 0;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-input-field {
+        flex-direction: column;
+    }
+   
+}

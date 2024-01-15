@@ -1,4 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --text-description: ;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* shared styles */
+
+.banner-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.627),
+      rgb(21 152 217 / 7%)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin: 50px 0;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  width: 650px;
+  text-align: center;
+  padding: 5px 50px;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-description {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 15px 0;
+}
+.banner-input-field {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.input-alter {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* shared styles */
+
+/* banner styles start */
+
+/* banner styles  end*/
