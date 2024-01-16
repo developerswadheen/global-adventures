@@ -231,6 +231,28 @@ nav > div {
   background: rgba(41, 206, 246, 0.05);
 }
 /* choose us styles */
+
+/* sponsors styles */
+.sponsors{
+  margin-top: 100px;
+  text-align: center;
+}
+.sponsors p{
+  padding: 30px 0;
+}
+.sponsor-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+
+/* sponsors styles */
+
+
+
 /* destination styles */
 .destination {
   margin-top: 100px;
