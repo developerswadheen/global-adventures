@@ -1,13 +1,59 @@
-@media screen and (max-width:600px) {
-    .banner-container{
-        height: auto;
-        padding: 50px 0;
+@media screen and (max-width:576px) {
+
+    body{
+        margin: 0 30px;
     }
-    .banner-title{
-        font-size: 2rem;
-    }
-    .banner-input-field {
+    .banner-input-field,
+    .popular-tours,
+    .article-container > div,
+    .newsLetter {
         flex-direction: column;
+    }
+    .popular-tours > div {
+        width: 90%;
+      }
+
+      .choose-us-content p{
+        padding: 15px 50px;
+    }
+    .article-container article{
+        width: auto;
+    }
+    .newsLetter > .newsLetter-field {
+        width: auto;
+    }
+    .discount-cart {
+        bottom: 18%;
+      }
+
+      footer{
+        padding: 100px 50px;
+      }
+      .footer-title {
+        font-size: 1.2rem;
+      }
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    body{
+        margin: 0 50px;
+    }
+    .popular-tours,
+    .article-container > div  {
+        flex-direction: column;
+    }
+    .popular-tours > div {
+        width: 90%;
+      }
+
+      .choose-us-content p{
+        padding: 15px 80px;
+    }
+    .article-container article{
+        width: auto;
     }
    
 }
