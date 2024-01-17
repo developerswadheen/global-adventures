@@ -74,7 +74,10 @@
   .discount-banner-cart .single-banner-cart p {
     display: none;
   }
-
+.deals-discounts {
+  margin: 100px;
+  width: 70%;
+}
   .blog-post-container {
     grid-template-columns: 1fr;
   }
