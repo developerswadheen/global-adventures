@@ -48,7 +48,13 @@
         width: auto;
     }
     .discount-cart {
-        bottom: 18%;
+        bottom: 13%;
+      }
+      .discount-cart span{
+        font-size: 1rem;
+      }
+      .discount-cart p{
+        font-size: 1.3rem;
       }
       .menu-list{
         display: none;
@@ -83,6 +89,7 @@
     .popular-tours > div {
         width: 90%;
       }
+     
       .destination-content{
         padding: 15px 15px;
       }
@@ -93,7 +100,7 @@
         width: auto;
     }
     .discount-cart {
-        bottom: 18%;
+        bottom: 12%;
       }
       .perfect-place > div {
         width: auto;

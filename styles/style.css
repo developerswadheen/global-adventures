@@ -261,44 +261,33 @@ nav > div {
   text-align: center;
   padding: 15px 300px;
 }
-.single-img-1 {
-  grid-area: one;
+.grid-container {
+  display: grid;
+  margin-top: 100px;
+  gap: 20px;
+  grid-auto-rows: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-auto-flow: dense;
 }
-.single-img-2 {
-  grid-area: two;
+.grid-container .photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.single-img-3 {
-  grid-area: three;
-}
-.single-img-4 {
-  grid-area: four;
-}
-.single-img-5 {
-  grid-area: five;
-}
-.single-img-8 {
-  grid-area: six;
-}
-.single-img-7 {
-  grid-area: seven;
-}
-.image-gallery > div {
-  border: 1px solid red;
-}
-
-.image-gallery > div img {
+.grid-container .photo img{
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
-.image-gallery {
-  display: grid;
-  gap: 25px;
-  grid-template-areas:
-    "one one one two two two"
-    "three three four four five five"
-    "six six six seven seven seven";
+
+.grid-container .wide{
+  grid-column: span 2;
 }
+.grid-container .big-wide{
+  /* grid-column: 3 / span 2; */
+}
+
 
 /* destination styles */
 
@@ -385,14 +374,14 @@ nav > div {
 }
 .discount-cart {
   text-align: center;
-  width: 324px;
-  padding: 25px 0;
+  /* width: 4px; */
+  padding: 25px 40px;
   transform: rotate(-19.628deg);
   border-radius: 16px;
   background: var(--secondary-color);
   position: absolute;
-  right: 2%;
-  bottom: 13%;
+  right: 1%;
+  bottom: 11%;
 }
 .discount-cart span {
   color: #fff;
