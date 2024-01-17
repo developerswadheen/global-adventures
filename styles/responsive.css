@@ -62,7 +62,10 @@
       .hamburger-icon{
         display: block;
       }
-      
+
+      .blog-post-container{
+        grid-template-columns: 1fr;
+      }
 
       footer{
         padding: 100px 50px;
@@ -113,6 +116,9 @@
       }
       .hamburger-icon{
         display: block;
+      }
+      .blog-post-container{
+        grid-template-columns: repeat(2, 1fr);
       }
 
       .choose-us-content p{
